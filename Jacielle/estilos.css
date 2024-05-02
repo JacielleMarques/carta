@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sono:wght@200;400;500&display=swap');
+
+body{
+    background-color: #343a40;
+    margin: 0;
+}
+
+h1{
+    color: #f8edeb;
+    font-family:"Montserrat" ;
+}
+
+h2{
+    color: #f8edeb;
+    font-family:"Montserrat" ;
+}
+
+h3{
+    color: #f8edeb;
+    font-family:"Montserrat";
+}
+
+p{
+    color: #f8edeb;
+    font-family:"Sono";
+}
+
+
+
+.carta{
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: deeppink;*/
+    border: 5px solid #000;
+
+    /* Margin: Espaçamento Externo*/
+    /*todos os 4 lados*/
+   /* margin-left: auto; */
+   /* margin-right: auto; */
+   margin:  30px auto ; 
+   /* auto e o espaçamento da 
+   direita e a esquerda */
+   /* 30px e o espaçamento entre 
+   a parte de cima e de baixo */
+
+    /* Cada lado separadamente */
+    /* margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 80px; */
+
+    /* Cada lado de uma vez */
+    /* top right bottom left */
+    /* margin: 60px 40px 80px 20px; */
+
+    /* Vertical e Horizontal */
+    /* margin: 20px 50px; */
+
+    /* PADDING: Espaçamento interno */
+    padding: 15px;
+    background-image: url('brilhop.jpg');
+    border-radius: 10px;
+    width: 630px;
+
+
+    
+}
+.foto{
+    border: 8px solid  #000;
+    width: 80%;  /* Largura: Todo o tamanho 
+    dispinível*/
+    height: 700px;
+    background-color: #000;
+    margin-bottom: 30px;
+    border-radius:  30px; 
+    background-image: url('Jacielle.jpg');
+    background-position: center;
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+
+}
+.carta p{
+    background-color: #000;
+    margin: 0;
+}
+
+.carta h3{
+    background-color: #000;
+    margin: 0;
+}
